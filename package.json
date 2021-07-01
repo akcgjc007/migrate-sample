@@ -1,0 +1,14 @@
+{
+  "name": "migrate-sample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "akcgjc007 <akcgjc007@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@terra-money/terra.js": "^1.8.5",
+    "dotenv": "^10.0.0"
+  },
+  "scripts": {
+    "all": "node scripts/my_script.js"
+  }
+}
