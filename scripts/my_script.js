@@ -82,9 +82,7 @@ async function test() {
   // let terraroll_address = recipient[0];
   // console.log("Contract address:", terraroll_address);
 
-
-  let terraroll_address = "terra1uh7uun5cm2hs7kktuw008k9y7zpdcvqur5h0rp";
-
+  let terraroll_address = "terra1e9xpdf9mm6xukmpsld85ayqnayzuht9y8rnrzt";
 
   // const execute = new MsgExecuteContract(
   //   wallet.key.accAddress, // sender

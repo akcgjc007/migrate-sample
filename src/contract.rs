@@ -32,6 +32,14 @@ pub fn handle<S: Storage, A: Api, Q: Querier>(
     }
 }
 
+pub fn migrate<S: Storage, A: Api, Q: Querier>(
+    _deps: &mut Extern<S, A, Q>,
+    _env: Env,
+    _msg: HandleMsg,
+) -> StdResult<HandleResponse> {
+    Ok(HandleResponse::default())
+}
+
 pub fn try_increment<S: Storage, A: Api, Q: Querier>(
     deps: &mut Extern<S, A, Q>,
     _env: Env,
